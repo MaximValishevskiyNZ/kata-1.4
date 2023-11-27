@@ -81,6 +81,10 @@ a, button {
     background-position: center center;
 }
 
+.navigation__btn:hover {
+    filter: opacity(80%);
+}
+
 .navigation__logo-link {
     margin-right: auto;
     display: flex;
@@ -111,7 +115,7 @@ a, button {
 }
 
 .navigation__link:hover {
-    color: #7E7E82;
+    filter: opacity(70%);
 }
 
 .navigation__link:hover:before {
@@ -170,6 +174,11 @@ a, button {
     letter-spacing: -0.6px;
 }
 
+.info__phone:hover,
+.info__mail:hover {
+    filter: opacity(70%);
+}
+
 .navigation__footer-langs {
     display: flex;
     gap: 7px;
@@ -180,6 +189,10 @@ a, button {
     letter-spacing: -0.2px;
 }
 
-.navigation__footer-langs .lang.active {
-    color: #7E7E82;
+.navigation__footer-langs .lang--active {
+    filter: opacity(50%);
+}
+
+.navigation__footer-langs .lang:hover {
+    filter: opacity(70%);
 }
