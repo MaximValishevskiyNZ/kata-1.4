@@ -58,7 +58,7 @@ a, button {
     left: 0;
     height: 100vh;
     padding: 23px 24px 32px;
-    box-shadow: 10px 5px 5px rgba(14, 24, 80, 0.2);
+    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
 }
 
 .navigation__header {
