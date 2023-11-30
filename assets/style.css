@@ -52,7 +52,7 @@ a, button {
 }
 
 .navigation {
-    max-width: 320px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     left: 0;
@@ -83,6 +83,15 @@ a, button {
 
 .navigation__btn:hover {
     filter: opacity(80%);
+    transition: 0.3s;
+}
+
+.navigation__btn--cross {
+    background-image: url("images/cross.png");
+}
+
+.navigation__btn--glass {
+    background-image: url("images/navigation_glass.png");
 }
 
 .navigation__logo-link {
@@ -90,13 +99,7 @@ a, button {
     display: flex;
 }
 
-.navigation__header .navigation__btn:nth-child(1) {
-    background-image: url("images/cross.png");
-}
 
-.navigation__header .navigation__btn:nth-child(3) {
-    background-image: url("images/navigation_glass.png");
-}
 
 .navigation__links {
     display: flex;
@@ -116,6 +119,7 @@ a, button {
 
 .navigation__link:hover {
     filter: opacity(70%);
+    transition: 0.3s;
 }
 
 .navigation__link:hover:before {
@@ -142,15 +146,15 @@ a, button {
     padding-bottom: 16px;
 }
 
-.navigation__footer-btns .navigation__btn:nth-child(1) {
+.navigation__btn--phone {
     background-image: url("images/phone_icon.png");
 }
 
-.navigation__footer-btns .navigation__btn:nth-child(2) {
+.navigation__btn--message {
     background-image: url("images/message_icon.png");
 }
 
-.navigation__footer-btns .navigation__btn:nth-child(3) {
+.navigation__btn--person {
     background-image: url("images/person_icon.png");
 }
 
@@ -177,6 +181,7 @@ a, button {
 .info__phone:hover,
 .info__mail:hover {
     filter: opacity(70%);
+    transition: 0.3s;
 }
 
 .navigation__footer-langs {
@@ -191,8 +196,10 @@ a, button {
 
 .navigation__footer-langs .lang--active {
     filter: opacity(50%);
+    transition: 0.3s;
 }
 
 .navigation__footer-langs .lang:hover {
     filter: opacity(70%);
+    transition: 0.3s;
 }
